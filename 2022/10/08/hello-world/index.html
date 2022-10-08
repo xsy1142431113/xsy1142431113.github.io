@@ -11,11 +11,11 @@
   <meta charset="utf-8">
 
   
-  <title>Hello World</title>
+  <title></title>
   
   <link rel="canonical" href="http://xsy1142431113.github.io/2022/10/08/hello-world/">
   
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in ">
+  <meta name="description" content="Speech Enhancement with Fullband-Subband Cross-Attention NetworkJun Chen, Wei Rao, Zilin Wang, Zhiyong Wu, Yannan Wang,  Tao Yu, Shidong Shang, Helen ">
   
   
   <meta name="author" content="Shiyun Xu">
@@ -24,16 +24,16 @@
   
   <meta property="og:site_name" content="Xsy" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Hello World" />
+  <meta property="og:title" content="" />
   
-  <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in ">
+  <meta property="og:description" content="Speech Enhancement with Fullband-Subband Cross-Attention NetworkJun Chen, Wei Rao, Zilin Wang, Zhiyong Wu, Yannan Wang,  Tao Yu, Shidong Shang, Helen ">
   
   <meta property="og:url" content="http://xsy1142431113.github.io/2022/10/08/hello-world/" />
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hello World">
+  <meta name="twitter:title" content="">
   
-  <meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in ">
+  <meta name="twitter:description" content="Speech Enhancement with Fullband-Subband Cross-Attention NetworkJun Chen, Wei Rao, Zilin Wang, Zhiyong Wu, Yannan Wang,  Tao Yu, Shidong Shang, Helen ">
   
   
   
@@ -195,21 +195,37 @@
 </div>
 
         <div class="trans">
-            <h2>Hello World</h2>
+            <h2></h2>
 
-  <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+  <h1 id="Speech-Enhancement-with-Fullband-Subband-Cross-Attention-Network"><a href="#Speech-Enhancement-with-Fullband-Subband-Cross-Attention-Network" class="headerlink" title="Speech Enhancement with Fullband-Subband Cross-Attention Network"></a>Speech Enhancement with Fullband-Subband Cross-Attention Network</h1><h3 id="Jun-Chen-Wei-Rao-Zilin-Wang-Zhiyong-Wu-Yannan-Wang-Tao-Yu-Shidong-Shang-Helen-Meng"><a href="#Jun-Chen-Wei-Rao-Zilin-Wang-Zhiyong-Wu-Yannan-Wang-Tao-Yu-Shidong-Shang-Helen-Meng" class="headerlink" title="Jun Chen, Wei Rao, Zilin Wang, Zhiyong Wu, Yannan Wang,  Tao Yu, Shidong Shang, Helen Meng"></a><em>Jun Chen, Wei Rao, Zilin Wang, Zhiyong Wu, Yannan Wang,  Tao Yu, Shidong Shang, Helen Meng</em></h3><h2 id = "1">Abstract</h2>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>FullSubNet has shown its promising performance on speech enhancement by utilizing both fullband and subband information. However, the relationship between fullband and subband in FullSubNet is achieved by simply concatenating the output of fullband model and subband units. It has not considered the interaction between fullband and subband. This paper proposes a fullband-subband cross-attention (FSCA) module to interactively fuse the global and local spectral information and applies it to FullSubNet. This new framework is called as FS-CANet. Moreover, different from FullSubNet, the proposed FS-CANet optimize the fullband extractor by temporal convolutional network (TCN) blocks to further reduce the model size. Experimental results on DNS Challenge - Interspeech 2021 dataset show that the proposed FS-CANet outperforms other state-of-the-art speech enhancement approaches, and demonstrate the effectiveness of fullband-subband cross-attention.</p>
+<h2 id="With-Reverberation"><a href="#With-Reverberation" class="headerlink" title="With Reverberation"></a>With Reverberation</h2><h3 id = "8">case 1</h3>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>case 1</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>Noisy</strong><br><audio controls><source src="./data/with_reverb/example63/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+<td align="center"><strong>FullSubNet</strong><br><audio controls><source src="./data/with_reverb/example63/fullsubnet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+</tr>
+<tr>
+<td align="center"><strong><img src="./data/with_reverb/example63/noisy.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
+<td align="center"><strong><img src="./data/with_reverb/example63/fullsubnet.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
+</tr>
+<tr>
+<td align="center"><strong>FS-CANet</strong><br><audio controls><source src="./data/with_reverb/example63/fscanet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+<td align="center"><strong>Clean</strong><br><audio controls><source src="./data/with_reverb/example63/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+</tr>
+<tr>
+<td align="center"><img src="./data/with_reverb/example63/fscanet.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
+<td align="center"><img src="./data/with_reverb/example63/clean.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
+</tr>
+</tbody></table>
 
   <p> — 2022年10月8日</p>
   
